@@ -1,0 +1,7 @@
+{
+  "name": "my-list-tools",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
