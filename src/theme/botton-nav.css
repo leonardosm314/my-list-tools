@@ -1,0 +1,38 @@
+ion-tab-bar {
+  --background: #fff;
+  height: 80px;
+  border-radius: 60px;
+  position: fixed;
+  width: 350px;
+  bottom: 1rem;
+  left: calc(50% - calc(350px / 2));
+}
+
+ion-tab-bar ion-tab-button {
+  --color: #000;
+  font-size: 18px;
+
+}
+
+/* ion-tab-bar ion-tab-button>div.de {
+
+  background-color: red;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: -1rem;
+} */
+
+
+ion-tab-bar ion-tab-button:hover {
+  transform: scale(1.2);
+}
+
+.tab-nav {
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
